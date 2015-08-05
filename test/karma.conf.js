@@ -43,7 +43,7 @@ module.exports = function(config) {
     ],
 
     // web server port
-    port: 8787,
+    port: 8080,
 
     // Start these browsers, currently available:
     // - Chrome
