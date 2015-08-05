@@ -1,3 +1,5 @@
+[![travis status](https://api.travis-ci.org/Oleg25/seller_interface.svg)](https://api.travis-ci.org)
+
 # sellerinterface
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
