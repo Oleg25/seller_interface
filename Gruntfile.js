@@ -29,7 +29,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     doxx: {
       all: {
-        src: 'app',
+        src: 'app\scripts\controllers',
         target: 'docs',
         options: {
           title: 'Doxx',
