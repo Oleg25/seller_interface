@@ -1,4 +1,4 @@
-[![travis status](https://api.travis-ci.org/Oleg25/seller_interface.svg)](https://api.travis-ci.org)
+[![travis status](https://api.travis-ci.org/Oleg25/seller_interface.svg)](https://api.travis-ci.org) [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
 # sellerinterface
 

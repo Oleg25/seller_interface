@@ -6,6 +6,7 @@
  * @description
  * # AboutCtrl
  * Controller of the sellerinterfaceApp
+ * @param
  */
 angular.module('sellerinterfaceApp')
   .controller('AboutCtrl', function () {

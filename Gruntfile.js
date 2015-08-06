@@ -27,6 +27,16 @@ module.exports = function (grunt) {
 
   // Define the configuration for all the tasks
   grunt.initConfig({
+    doxx: {
+      all: {
+        src: 'app',
+        target: 'docs',
+        options: {
+          title: 'Doxx',
+          // Task-specific options go here.
+        }
+      }
+    },
 
     // Project settings
     yeoman: appConfig,
@@ -441,6 +451,7 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-doxx');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -495,5 +506,5 @@ module.exports = function (grunt) {
     'build'
   ]);
 
-  grunt.loadNpmTasks('grunt-teamcity');
+
 };
